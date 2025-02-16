@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: black;
+  background-color: white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -53,7 +53,21 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+.blog-preview{
+  padding : 10px 16px ;
+  margin : 20px 0 ;
+  border-bottom: 1px solid #fafafa;
 
+}
+.blog-preview:hover {
+  box-shadow : 1px 3px 5px rgba(0,0,0,0.1) ;
+}
+.blog-preview h2 {
+  font-size : 20px ;
+  color : #f1356d ;
+  margin-bottom : 8px ;
+
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

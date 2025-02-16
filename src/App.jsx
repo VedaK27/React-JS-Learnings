@@ -2,24 +2,21 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import BlogList from './blogList';
 
 function App() {
-  const title = "Welcome to the new blog" ;
-  const like= 50 ;
-  const person = {name: 'Veda' , age:30} ;
-  const link="https://www.google.com" ;
+  const [blogs , setBlogs] = useState([
+    { title : "My new website" , body: "lorem ispum..." , author :"Veda" , id:1} ,
+    { title : "Welcome Partu!" , body: "lore eispum...." , author:"mario" , id:2} ,
+    { title : "Web dev top tips" , body:"lorem ispum..." , author:"ysodhi" , id:3}
+  ]) ;
+  const handledelete =(id) => {
+        const newBlogs = blogs.filter(blog => blog.id !=id) ;
+        setBlogs(newBlogs) ;
+  }
   return (
-    <div className="App">
-      <div className="content">
-        <h1>{title}</h1>
-        <p>Liked {like} times</p>
-
-        {/* <p>Author : {person.name}</p> */}
-        <p>{"Hello, Veda!"}</p>
-        <p>{Math.random()*10}</p>
-
-        <a href={link}>Google Link</a>
-      </div>
+    <div className="home">
+      <BlogList blogs={blogs} title="All blogs!" handledelete={handledelete}/>
 
     </div>
       
