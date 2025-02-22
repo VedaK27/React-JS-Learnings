@@ -1,0 +1,16 @@
+{
+    "blogs": [
+        { "title" : "My new website in json file" ,
+          "body": "The digital world is evolving rapidly, and with it, the way we consume and share information. Blogging has become a powerful medium for individuals to express thoughts, share knowledge, and connect with like-minded people.\n\nStarting a blog is more than just writing—it’s about crafting engaging content, understanding your audience, and creating a space where ideas flourish. A well-written blog post has the ability to inform, inspire, and spark conversations.\n\nConsistency is key when it comes to blogging. Engaging readers with fresh content, responding to comments, and staying updated with trends can make all the difference. Whether you’re a beginner or an experienced writer, the journey of blogging is filled with learning and growth.\n\nAs you embark on this blogging journey, remember that your words matter. They have the power to influence, educate, and connect people from different parts of the world. So, pick up your pen (or keyboard) and start writing—your story is waiting to be told" , 
+          "author" :"Veda" ,
+          "id":1} ,
+    { "title" : "Welcome Partu!",
+      "body": "The digital world is evolving rapidly, and with it, the way we consume and share information. Blogging has become a powerful medium for individuals to express thoughts, share knowledge, and connect with like-minded people.\n\nStarting a blog is more than just writing—it’s about crafting engaging content, understanding your audience, and creating a space where ideas flourish. A well-written blog post has the ability to inform, inspire, and spark conversations.\n\nConsistency is key when it comes to blogging. Engaging readers with fresh content, responding to comments, and staying updated with trends can make all the difference. Whether you’re a beginner or an experienced writer, the journey of blogging is filled with learning and growth.\n\nAs you embark on this blogging journey, remember that your words matter. They have the power to influence, educate, and connect people from different parts of the world. So, pick up your pen (or keyboard) and start writing—your story is waiting to be told." ,
+      "author":"mario" , 
+      "id":2} ,
+    { "title" : "Web dev top tips" , 
+      "body":"The digital world is evolving rapidly, and with it, the way we consume and share information. Blogging has become a powerful medium for individuals to express thoughts, share knowledge, and connect with like-minded people.\n\nStarting a blog is more than just writing—it’s about crafting engaging content, understanding your audience, and creating a space where ideas flourish. A well-written blog post has the ability to inform, inspire, and spark conversations.\n\nConsistency is key when it comes to blogging. Engaging readers with fresh content, responding to comments, and staying updated with trends can make all the difference. Whether you’re a beginner or an experienced writer, the journey of blogging is filled with learning and growth.\n\nAs you embark on this blogging journey, remember that your words matter. They have the power to influence, educate, and connect people from different parts of the world. So, pick up your pen (or keyboard) and start writing—your story is waiting to be told" , 
+      "author":"ysodhi" , 
+      "id":3}
+    ]
+}

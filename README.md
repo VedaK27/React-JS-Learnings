@@ -10,4 +10,11 @@ Currently, two official plugins are available:
 
 To run -> npm run dev
 
+
+
 {} used for object 
+
+
+for running json:
+npx json-server --watch data/db.json --port 8000
+//This will make it run on port 8000 
